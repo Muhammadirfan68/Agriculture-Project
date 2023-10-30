@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Log in</title>
+    <style>
+        body{
+            background-image: url(./assets/Images/workplace-with-smartphone-laptop-black-table-top-view-copyspace-background.jpg);
+        }
+        .login{
+            height: 400px;
+            width: 400px;
+            margin: auto;
+            background-color: beige;
+            margin-top: 100px;
+        }
+        input{
+            border: 1px solid black;
+        }
+        .login img{
+            height: 150px;
+            margin-left: 127px;
+            margin-top: 5px;
+        }
+        .login h2{
+            font-family: arial;
+            text-align: center;
+        }
+        #input-name, #input-password{
+            height: 30px;
+            width: 300px;
+            margin-left: 50px;
+        }
+        #input-name{
+            background-image: url(./assets/Images/username.png);
+            background-repeat: no-repeat;
+            padding-left: 32px;
+        }
+        #input-password{
+            background-image: url(./assets/Images/password.png);
+            background-repeat: no-repeat;
+            padding-left: 32px;
+        }
+        #login-btn{
+            margin-left: 100px;
+            height: 35px;
+            width: 150px;
+            margin-left: 127px;
+            background-color: rgb(69, 69, 214);
+            border: none;
+            color: white;
+        }
+        #login-btn:hover{
+            background-color: goldenrod;
+        }
+        </style>
+</head>
+<body>
+    <div class="login">
+        <img src="./assets/Images/login.png" alt="">
+        <h2>LOGIN</h2>
+        <form action="">
+            <input type="email"  placeholder="CNIC" id="input-name">
+            <br><br>
+            <input type="password" placeholder="Password" id="input-password">
+            <br><br>
+            <button name="login" id="login-btn"> Login</button>
+        </form>
+    </div>
+</body>
+</html>
